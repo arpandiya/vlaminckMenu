@@ -112,4 +112,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-top: -10px;
+    z-index: -100;
+    overflow: hidden;
     }
