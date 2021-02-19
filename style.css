@@ -127,4 +127,5 @@ footer {
     margin-top: -10px;
     z-index: -100;
     overflow: hidden;
+    opacity: 0.5;
     }
