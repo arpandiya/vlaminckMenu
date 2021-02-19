@@ -99,11 +99,13 @@ body {
 .menu__box {
     display: grid;
     grid-template-columns: 85% auto;
-    background-color: rgba(32, 9, 5, 0.95);
+    /* background-color: rgba(32, 9, 5, 0.95); */
     height: auto;
     padding: 5px;
     margin: 5px;
-    color: white;
+    color: rgba(32, 9, 5, 0.95);
+    border: 2px solid rgba(32, 9, 5, 0.1);
+    box-shadow: 1px 1px 1px rgba(32, 9, 5, 0.95);
     border-radius: 5%;
 }
 
