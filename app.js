@@ -28,6 +28,15 @@ const menu = [
         desc_fr: 'Lorem ipsum dolar sit in french', 
         desc_nl: 'Lorem ipsum dolar sit in spanish'
     },
+        {   
+        id: 3, 
+        category:'brunch', 
+        item: 'sandwich',
+        price: 20, 
+        desc_en: 'Lorem ipsum dolar sit in english', 
+        desc_fr: 'Lorem ipsum dolar sit in french', 
+        desc_nl: 'Lorem ipsum dolar sit in spanish'
+    },
     
     
 ];
