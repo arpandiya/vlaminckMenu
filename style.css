@@ -78,7 +78,7 @@ body {
 
 .menu__page > img {
     margin-top: 5px;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .menu__flags {
@@ -127,5 +127,5 @@ footer {
     margin-top: -10px;
     z-index: -100;
     overflow: hidden;
-    opacity: 0.3;
+    opacity: 0.2;
     }
