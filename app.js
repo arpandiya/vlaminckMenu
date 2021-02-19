@@ -1,29 +1,42 @@
 const menu = [
     {   
-        page: '1 of 8', 
-        category:'hapjes/snacks', 
-        item: 'Burger',
+        page: '2 of 8', 
+        category:'hapjes/snacks/drinks', 
+        item: 'Homemade Sauce',
+        price: 50, 
+        desc_en: 'This is my custom english description of the food.', 
+        desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_bl: 'Lorem ipsum dolar sit in spanish. his is awkwared to write random words just to fill the spaces for testing purposes. his is awkwared to write random words just to fill the spaces for testing purposes.'
+    },
+    {   
+        item: 'sandwich',
         price: 20, 
         desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
         desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
-        desc_nl: 'Lorem ipsum dolar sit in spanish. his is awkwared to write random words just to fill the spaces for testing purposes. his is awkwared to write random words just to fill the spaces for testing purposes.'
+        desc_bl: 'Lorem ipsum dolar sit in spanish'
     },
-
     {   
-        
-        item: 'Pizza',
-        price: 20, 
-        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes. his is awkwared to write random words just to fill the spaces for testing purposes.', 
+        item: 'Sausage',
+        price: 10, 
+        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
         desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
-        desc_nl: 'Lorem ipsum dolar sit in spanish'
+        desc_bl: 'Lorem ipsum dolar sit in spanish'
     },
+    {   
+        item: 'Hot dog',
+        price: 12, 
+        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_bl: 'Lorem ipsum dolar sit in spanish'
+    },
+    
 
     {   
         item: 'sandwich',
         price: 20, 
         desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
         desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
-        desc_nl: 'Lorem ipsum dolar sit in spanish'
+        desc_bl: 'Lorem ipsum dolar sit in spanish'
     },
     
 ];
