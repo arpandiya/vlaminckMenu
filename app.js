@@ -1,43 +1,30 @@
 const menu = [
     {   
-        id: 1, 
-        category:'lunch', 
+        page: '1 of 8', 
+        category:'hapjes/snacks', 
         item: 'Burger',
         price: 20, 
-        desc_en: 'Lorem ipsum dolar sit in english', 
-        desc_fr: 'Lorem ipsum dolar sit in french', 
-        desc_nl: 'Lorem ipsum dolar sit in spanish'
+        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_nl: 'Lorem ipsum dolar sit in spanish. his is awkwared to write random words just to fill the spaces for testing purposes. his is awkwared to write random words just to fill the spaces for testing purposes.'
     },
 
     {   
-        id: 2, 
-        category:'dinner', 
+        
         item: 'Pizza',
         price: 20, 
-        desc_en: 'Lorem ipsum dolar sit in english', 
-        desc_fr: 'Lorem ipsum dolar sit in french', 
+        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes. his is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
         desc_nl: 'Lorem ipsum dolar sit in spanish'
     },
 
     {   
-        id: 3, 
-        category:'brunch', 
         item: 'sandwich',
         price: 20, 
-        desc_en: 'Lorem ipsum dolar sit in english', 
-        desc_fr: 'Lorem ipsum dolar sit in french', 
+        desc_en: 'Lorem ipsum dolar sit in english. This is awkwared to write random words just to fill the spaces for testing purposes.', 
+        desc_fr: 'Lorem ipsum dolar sit in french. This is awkwared to write random words just to fill the spaces for testing purposes.', 
         desc_nl: 'Lorem ipsum dolar sit in spanish'
     },
-        {   
-        id: 3, 
-        category:'brunch', 
-        item: 'sandwich',
-        price: 20, 
-        desc_en: 'Lorem ipsum dolar sit in english', 
-        desc_fr: 'Lorem ipsum dolar sit in french', 
-        desc_nl: 'Lorem ipsum dolar sit in spanish'
-    },
-    
     
 ];
 //  import menu from './menu.js';
