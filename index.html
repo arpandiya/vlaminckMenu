@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Print Menu</title>
+</head>
+<body >
+    <div class="main__container" id="app">
+        <div class="menu__container">
+            <div class="menu__header">
+               <div class="menu__page"><h3>Page: 1</h3></div>
+                <div class="menu__logo">
+                    <h1>Vlaminck</h1>
+                    <img src='images/menu.png' height='100' width='230'/>
+                    
+                </div>
+                
+                <div class="menu__flags">
+                    <img width='50' height="30" src='/images/flag3.jpg'/>
+                    <img width='50' height="30" src='/images/flag2.jpg'/>
+                    <img width='50' height="30" src='/images/flag1.jpg'/>
+                </div>
+            </div>
+    <!-- category -->
+    <div class="menu__category">
+        <hr>
+        <h2><span class='left'></span> Lunch <span class='right'></span></h2>
+        <hr>
+    </div>
+<!-- Menu contents -->
+            <div class="menu__box" v-for="items in menu">
+                <div class="menu__title">
+                    <h2>{{ items.item }}</h2>
+                    <hr>
+                <div class="menu__description">
+                    <div class="description__nl">
+                       <p><img src='images/flag1.jpg' width='20' height='14'/> {{ items.desc_fr }}</p> 
+                    </div>
+                    <hr style='opacity: 0.2;'>
+                    <div class="description__fr">
+                        <p><img src='images/flag2.jpg' width='20' height='14'/> Lorem ipsum dolar sit. I dont't know how we going to accomodate this.</p>
+                    </div>
+                    <hr style='opacity: 0.2;'>
+                    <div class="description__en">
+                        <p><img src='images/flag3.jpg' width='20' height='14'/> The clip property lets you specify a rectangle to clip an absolutely positioned element. The rectangle is specified as four coordinates, all from the top-left corner of the element to be clipped.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="menu__price">
+                    <h2>€ {{ items.price }}</h2>
+                    <hr>
+                </div>
+                
+            </div>
+            <footer>
+               
+                <img src="images/line.png" width='400' height='30' />
+            </footer>
+            <!-- End of menu box -->
+            
+        </div>
+
+        
+    </div>
+
+
+</body>
+</html>
